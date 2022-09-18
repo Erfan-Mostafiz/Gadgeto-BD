@@ -1,0 +1,102 @@
+body {
+    color: black;
+}
+
+.img-product {
+    width: 700px;
+    height: 700px;
+}
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+    width: 280px;
+    height: 380px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(2.0);
+    /* (200% zoom)  */
+}
+
+.sec-back {
+    margin: 0px auto;
+    font-weight: 900;
+    width: 75%;
+}
+
+.text-product {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.btnSubmit1 {
+    font-weight: 600;
+    width: 30%;
+    color: white;
+    background-color: #e05614;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    margin: 50px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.btnSubmit1:hover {
+    font-size: 20px;
+    font-weight: 900;
+    background: #e05614b8;
+}
+
+.tabContainer {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+.tabContainer .buttonContainer {
+    height: 15%;
+}
+
+.tabContainer .buttonContainer button {
+    width: 25%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #e9e9e9;
+}
+
+.tabContainer .buttonContainer button:hover {
+    text-decoration: underline;
+}
+
+.tabContainer .tabPanel {
+    height: 85%;
+    background-color: #e9e9e9;
+    color: black;
+    text-align: center;
+    padding-top: 105px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 22px;
+    display: none;
+}
+
+.tabPanel {
+    padding-bottom: 40px;
+}
+
+.stock {
+    color: red;
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 5px;
+    display: inline-block;
+}

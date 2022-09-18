@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+* {
+    font-family: 'Dosis', sans-serif;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+.nav-color:hover {
+    color: white !important;
+    display: inline-block !important;
+    background: #3498db !important;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+
+h3 {
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+
+h1 {
+    margin: 150px auto 30px auto;
+    text-align: center;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.see:hover {
+    color: white;
+    background: #28a745 !important;
+    transition: 0.5s;
+}
+
+.headline {
+    background: #3498db !important;
+    color: white;
+    position: relative;
+}
+
+.headline h1 {
+    margin: 15px 0;
+    padding: 20px;
+}
+
+.pic {
+    position: absolute;
+    top: -10%;
+    right: 25%;
+}
+
+.pic img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 1350px) {
+    .headline h1 {
+        margin-top: 30px;
+        padding-top: 80px;
+    }
+}
+
+
+/* card */
+
+.card {
+    width: 16rem;
+    margin: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.row {
+    padding: 0 30px;
+}
+
+.butn {
+    background: #28a745;
+    border: 2px solid #28a745;
+}
+
+.butn:hover {
+    background: #24943d;
+    border: 2px solid #24943d;
+}
+
+
+/* card end*/
+
+.pic2 {
+    position: absolute;
+    top: -10%;
+    left: 25%;
+}
+
+.pic2 img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.headline p {
+    font-size: 20px;
+    background: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    right: 23%;
+    top: 25%;
+    animation-name: color_change;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+
+@keyframes color_change {
+    0% {
+        background: orange;
+    }
+    50% {
+        background: #fd7e14;
+    }
+    100% {
+        background: #56a1f3;
+    }
+}
+
+.contact .container-fluid {
+    background: #3498db !important;
+    color: white;
+    padding: 2%;
+}
+
+.contact h3 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.contact p {
+    margin-bottom: 3px;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.contact li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    font-size: 35px;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: #28a745;
+}
+
+.o_price {
+    text-decoration: line-through;
+    font-size: 20px;
+    color: #0c69cd;
+}
